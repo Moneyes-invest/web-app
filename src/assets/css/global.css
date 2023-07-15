@@ -1,0 +1,33 @@
+.auth-block{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 500px;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-height: 620px;
+}
+
+.auth-block:hover{
+    transform: scale(1.01,1.02);
+    animation-duration: 500ms;
+}
+
+.auth-sub-title{
+    color:#d8d8e3;
+    font-size: 13px;
+    font-family: 'SpaceGrotesk-Bold'
+}
+
+.auth-title{
+    color: #707ba1;
+    font-family: 'SpaceGrotesk-Bold';
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+    .phone-hide{
+        display: none;
+    }
+}

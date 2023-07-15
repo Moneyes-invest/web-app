@@ -1,0 +1,98 @@
+.input-container{
+    position: relative;
+    border-radius: 7px;
+    border: 1.5px solid #f1f0f4;
+    padding: 8px 13px;
+}
+.input-container.small{
+    padding: 3px 8px ;
+}
+.input-container.active{
+    border-color: rgba(238,239,243,255);
+}
+
+.input-container input,.input-container input:focus{
+    border: 0;
+    outline: none;
+}
+
+.input-container .label{
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    left: 15px;
+    color: #e1e2e6;
+    padding: 0 5px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.input-container .label.active{
+    color: #7f90d3;
+}
+
+.input-container .ant-picker-focused{
+    outline: none;
+    box-shadow: none;
+}
+.input-container .ant-picker{
+    border: 0;
+    width: 100%;
+}
+.input-container input{
+    width: 100%;
+}
+.input-container:hover{
+    border-color:#2ab6b973;
+    border-color:rgb(203 206 220);
+}
+.input-container:hover label{
+    color: #2AB6B9 !important;
+    transform: scale(1.1);
+}
+.condition{
+    color: #D44097;
+    text-decoration: underline;
+    margin-left: 3px;
+    font-family: 'SpaceGrotesk-Bold'
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #D44097 !important;
+    border-color: #D44097 !important;
+    /* color: '#D44097', */
+}
+.ant-checkbox-checked .ant-checkbox-inner:focus{
+border-color: #D44097 !important;
+}
+:where(.css-dev-only-do-not-override-14wwjjs).ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+border-color: #D44097 !important;
+}
+
+.password-lost{
+    color: #D44097;
+    font-family: 'SpaceGrotesk-Regular';
+    font-size: 13px;
+}
+.remember{
+    font-family:'SpaceGrotesk-Regular';
+    font-size: 13px;
+    color: #bfbfc1;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    width:100% ;
+    border: 0;
+    font-family:'SpaceGrotesk-Bold';
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover{
+    transform: scale(1.05,1.1);
+}
+
+.error{
+    color: #da071c !important;
+}
