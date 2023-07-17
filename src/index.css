@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* global css */
+
+.h-100vh{
+
+  height: 100vh !important;
+  background: rgb(212,64,151);
+  background: -moz-linear-gradient(90deg, rgba(212,64,151,1) 0%, rgba(208,64,212,1) 50%, rgba(167,64,212,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(212,64,151,1) 0%, rgba(208,64,212,1) 50%, rgba(167,64,212,1) 100%);
+  background: linear-gradient(90deg, rgba(212,64,151,1) 0%, rgba(208,64,212,1) 50%, rgba(167,64,212,1) 100%);
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Bold';
+  src: url('./assets/fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-family: 'SpaceGrotesk-Regular';
+  src: url('./assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  /* Add more src declarations for other font file formats if needed */
+  /* You can define different font weights and styles as well */
+}
