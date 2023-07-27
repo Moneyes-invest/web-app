@@ -1,7 +1,6 @@
 
 import axios from 'axios';
-import { logInType,logUpType } from '../types';
-const auth_url = 'https://ec2-13-37-170-167.eu-west-3.compute.amazonaws.com/api';
+import { logInType,logUpType,auth_url } from '../types';
 
 const Login = (data: logInType) => axios.post(`${auth_url}/login`, data).then((res:any) => res.data);
 
