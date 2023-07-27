@@ -64,3 +64,25 @@ export const validLogIn = (logup:logInType,newError:logInType) => {
     
     return {data:newUserError,valid};
 };
+
+export const sortByName=(data:any[],order:'asc'|'desc'="asc")=>data.sort((a, b) => {
+  const nameA = a.asset.toUpperCase();
+  const nameB = b.asset.toUpperCase();
+  if (order==='desc') {
+    if (nameA < nameB) {
+    return -1; // If nameA comes before nameB, return a negative value
+    }
+    if (nameA > nameB) {
+      return 1; // If nameA comes after nameB, return a positive value
+    }
+  } else {
+    if (nameA < nameB) {
+      return -1; // If nameA comes before nameB, return a negative value
+    }
+    if (nameA > nameB) {
+      return 1; // If nameA comes after nameB, return a positive value
+    }
+  }
+  
+  return 0; // If both names are the same, return 0
+});

@@ -1,0 +1,121 @@
+.dashoard-left{
+    background-color: #111;
+}
+.dashoard-left.close{
+    max-width: 40px;
+}
+.dashoard-rigth.close{
+    width: calc(100% - 40px);
+}
+.dashoard-rigth{
+    background-color: #ebdfd7;
+}
+.dashoard-left .item.active{
+    color: #e86d3f;
+    border: 1px solid white;
+    background: white;
+    border-radius: 25px;  
+    transition:all 0.5s ease-in-out;  
+}
+.dashoard-left .item:not(.active):hover{
+    transform: scale(1.1);
+}
+.dashoard-left  .item{
+    padding: 5px 10px;
+    min-width: 150px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+.user-logo {
+    display:inline-block;
+    width:100%;
+    height:auto;
+    max-width:150px;
+    border-radius:50%;
+    box-shadow:0 0 2px rgba(0,0,0,0.5);
+    transition:all 0.5s ease-in-out;
+    width: 30px;
+    height: 30px;
+}
+
+.profil{
+    padding: 0px 10px 0px 3px !important;
+}
+.ml-3{
+    margin-left: 1rem;
+}
+.menu-close{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    right: -15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-head{
+    margin-top: 20px;
+    height: 90px;
+}
+.dashboard-header{
+    border-bottom: 1px solid #bac4c45c;
+    height: 70px;
+    padding: 0 30px;
+}
+.seach-block,.profil{
+    border: 1px solid white;
+    background: white;
+    border-radius: 25px;
+    padding: 0 15px;  
+    min-height: 40px;
+}
+.seach-input{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+.use-type{
+    color:#cecfd0;
+    font-size: x-small;
+}
+.use-name{
+    color: #43464b;
+    font-size: small;
+}
+.use-chevron{
+    font-size: x-small;
+}
+.seach-input:focus{
+    outline: none;
+}
+
+.dashoard-container .item{
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #f3eae5;
+}
+.sub-title{
+    border-bottom: 1px solid #a7aeb9;
+    margin: 0;
+}
+.border-bottom{
+border-bottom: 1px solid #a7aeb9;
+}
+.dashoard-container{
+    padding: 20px 30px;
+}
+.actif-list{
+    max-height: 350px;
+    overflow-y: auto;
+}
+div.border-bottom canvas{
+    width: 100%;
+}
+.user-name{
+    font-size: 13px;
+    max-width: 120px;
+}

@@ -71,7 +71,7 @@ export const LaunchScreen: React.FC<any> = (props) => {
         .then((res: any) => {
           if (res.token) {
             localStorage.setItem(localStorageKey, JSON.stringify(res));
-            navigate("home");
+            navigate("dashboard");
           }
         })
         .catch((e: any) => {
@@ -105,7 +105,7 @@ export const LaunchScreen: React.FC<any> = (props) => {
         .then((res) => {
           if (res.token) {
             localStorage.setItem(localStorageKey, JSON.stringify(res));
-            navigate("home");
+            navigate("dashboard");
           }
         })
         .catch((e: any) => {

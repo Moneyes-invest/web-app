@@ -51,4 +51,5 @@ export type ButtonComponentProps={
     inactiveBg?: string;
     value: string;
 }
-export const localStorageKey="moneyes-user"
+export const localStorageKey = "moneyes-user";
+export const auth_url = "https://ec2-13-37-170-167.eu-west-3.compute.amazonaws.com/api";

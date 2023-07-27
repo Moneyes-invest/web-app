@@ -26,8 +26,34 @@
     font-weight: bold;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px){
     .phone-hide{
         display: none;
     }
+}
+::-webkit-scrollbar, ::-webkit-scrollbar {
+    width: 4px !important;
+    scrollbar-width: none !important;
+}
+::-webkit-scrollbar, ::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar, ::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb {
+    background: #ebdfd7 !important;
+}
+::-webkit-scrollbar-thumb {
+    background: #ebdfd7;
+}
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track {
+    background: #ebdfd754 !important;
+}
+::-webkit-scrollbar-track {
+    background: #ebdfd754;
 }
