@@ -31,7 +31,7 @@ export const DashboardScreen = () => {
       <div
         className={
           menuOpen
-            ? "col-sm-12 col-lg-2 dashoard-left p-0"
+            ? "col-sm-12 col-md-2 col-lg-2 dashoard-left p-0"
             : "dashoard-left close p-0"
         }
       >
@@ -76,7 +76,7 @@ export const DashboardScreen = () => {
       <div
         className={
           "dashoard-rigth p-0 " +
-          (menuOpen ? "col-sm-12 col-lg-10" : "close p-0")
+          (menuOpen ? "col-sm-12 col-md-10 col-lg-10" : "close p-0")
         }
       >
         <div className="dashboard-header d-flex align-items-center justify-content-between">
